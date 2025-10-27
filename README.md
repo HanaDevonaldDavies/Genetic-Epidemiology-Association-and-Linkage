@@ -1,4 +1,4 @@
-# Genetic-Epidemiology-Association-and-Linkage
+# Association and Linkage
 
 This repository contains a complete pipeline for performing **Genome-Wide Association Study (GWAS) quality control (QC)** and **association analysis** using PLINK and R. The workflow is demonstrated on a simulated Alzheimer’s Disease (AD) case-control dataset (`denti`), following established best practices for GWAS.
 
