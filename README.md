@@ -4,7 +4,7 @@ This repository contains a complete pipeline for performing **Genome-Wide Associ
 
 ---
 
-## 📁 Project Overview
+## Project Overview
 
 - **Objective**: To perform rigorous QC and association testing on a simulated GWAS dataset.
 - **Phenotype**: Alzheimer’s Disease (binary case-control)
@@ -14,18 +14,18 @@ This repository contains a complete pipeline for performing **Genome-Wide Associ
 
 ---
 
-## 🧬 Dataset
+## Dataset
 
 - **Simulated Dataset**: `denti`
 - **Sample Size**: 1,790 individuals (837 cases, 932 controls)
 - **SNPs**: ~230,000 autosomal SNPs
 - **Covariates**: Sex, age, top 10 principal components
 
-> ⚠️ **Note**: This is a **dummy dataset** for educational purposes. Results are not biologically interpretable.
+> **Note**: This is a **dummy dataset** for educational purposes. Results are not biologically interpretable.
 
 ---
 
-## 🔧 Pipeline Steps
+## Pipeline Steps
 
 ### 1. Initial Sample QC
 - Sex discordance check (`--check-sex`)
@@ -52,7 +52,7 @@ This repository contains a complete pipeline for performing **Genome-Wide Associ
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 - Two suggestive SNPs identified:
   - `rs2304206` (Chr19, OR = 0.699, p = 1.77e-06)
